@@ -8,7 +8,7 @@ data("data_lionfish")
 # Create a simple plot
 p <- ggplot(data_lionfish,
             aes(x = total_length_mm, y = total_weight_gr)) +
-  geom_point()
+  geom_point(shape = 21, fill = "cyan", size = 2)
 
 p
 # Save plot
